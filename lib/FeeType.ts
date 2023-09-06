@@ -11,7 +11,7 @@ export class FeeType {
     public static MinimumFee(config: IConfig = new Config()): FeeType {
         const tempConfig: Config = MergeConfig(config);
 
-        return FeeType.FeePerByte(tempConfig.minimumFeePerByte);
+        return FeeType.FixedFee(tempConfig.minimumFee);
     }
 
     /**
