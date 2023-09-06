@@ -16,7 +16,7 @@ class FeeType {
      */
     static MinimumFee(config = new Config_1.Config()) {
         const tempConfig = Config_1.MergeConfig(config);
-        return FeeType.FeePerByte(tempConfig.minimumFeePerByte);
+        return FeeType.FixedFee(tempConfig.minimumFee);
     }
     /**
      * Specify a custom fee per byte to use. Can be a fractional amount.
