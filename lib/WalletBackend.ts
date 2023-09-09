@@ -292,7 +292,7 @@ export class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('turtlecoin-wallet-backend');
+     * const WB = require('lumanex-wallet-backend');
      *
      * const daemon = new WB.Daemon('127.0.0.1', 11898);
      *
@@ -344,7 +344,7 @@ export class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('turtlecoin-wallet-backend');
+     * const WB = require('lumanex-wallet-backend');
      *
      * const daemon = new WB.Daemon('127.0.0.1', 11898);
      * const data = 'ENCRYPTED_WALLET_STRING';
@@ -395,7 +395,7 @@ export class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('turtlecoin-wallet-backend');
+     * const WB = require('lumanex-wallet-backend');
      *
      * const daemon = new WB.Daemon('127.0.0.1', 11898);
      *
@@ -440,7 +440,7 @@ export class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('turtlecoin-wallet-backend');
+     * const WB = require('lumanex-wallet-backend');
      *
      * const daemon = new WB.Daemon('127.0.0.1', 11898);
      *
@@ -511,7 +511,7 @@ export class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('turtlecoin-wallet-backend');
+     * const WB = require('lumanex-wallet-backend');
      *
      * const daemon = new WB.Daemon('127.0.0.1', 11898);
      *
@@ -593,7 +593,7 @@ export class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('turtlecoin-wallet-backend');
+     * const WB = require('lumanex-wallet-backend');
      *
      * const daemon = new WB.Daemon('127.0.0.1', 11898);
      *
@@ -672,7 +672,7 @@ export class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('turtlecoin-wallet-backend');
+     * const WB = require('lumanex-wallet-backend');
      *
      * const daemon = new WB.Daemon('127.0.0.1', 11898);
      *

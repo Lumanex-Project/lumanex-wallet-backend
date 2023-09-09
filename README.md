@@ -1,16 +1,16 @@
 ![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
 
 #### Master Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin-wallet-backend-js.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin-wallet-backend-js)
+[![Build Status](https://travis-ci.org/Lumanex-Project/lumanex-wallet-backend-js.svg?branch=master)](https://travis-ci.org/Lumanex-Project/lumanex-wallet-backend-js)
 
 #### NPM
-[![NPM](https://nodei.co/npm/turtlecoin-wallet-backend.png?compact=true)](https://npmjs.org/package/turtlecoin-wallet-backend)
+[![NPM](https://nodei.co/npm/lumanex-wallet-backend.png?compact=true)](https://npmjs.org/package/lumanex-wallet-backend)
 
 #### Github
 
-https://github.com/turtlecoin/turtlecoin-wallet-backend-js
+https://github.com/Lumanex-Project/lumanex-wallet-backend-js
 
-# turtlecoin-wallet-backend
+# lumanex-wallet-backend
 
 Provides an interface to the TurtleCoin network, allowing wallet applications to be built.
 
@@ -22,27 +22,27 @@ Provides an interface to the TurtleCoin network, allowing wallet applications to
 
 NPM:
 
-`npm install turtlecoin-wallet-backend --save`
+`npm install lumanex-wallet-backend --save`
 
 Yarn:
 
-`yarn add turtlecoin-wallet-backend`
+`yarn add lumanex-wallet-backend`
 
 ## Documentation
 
-[You can view the documentation here](https://turtlecoin.github.io/turtlecoin-wallet-backend-js/classes/_walletbackend_.walletbackend.html)
+[You can view the documentation here](https://turtlecoin.github.io/lumanex-wallet-backend-js/classes/_walletbackend_.walletbackend.html)
 
 You can see a list of all the other classes on the right side of the screen.
-Note that you will need to prefix them all with `WB.` to access them, if you are not using typescript style imports, assuming you imported with `const WB = require('turtlecoin-wallet-backend')`.
+Note that you will need to prefix them all with `WB.` to access them, if you are not using typescript style imports, assuming you imported with `const WB = require('lumanex-wallet-backend')`.
 
 ## Quick Start
 
-You can find an [example project in the examples](https://github.com/turtlecoin/turtlecoin-wallet-backend-js/tree/master/examples/example1) folder.
+You can find an [example project in the examples](https://github.com/Lumanex-Project/lumanex-wallet-backend-js/tree/master/examples/example1) folder.
 
 ### Javascript
 
 ```javascript
-const WB = require('turtlecoin-wallet-backend');
+const WB = require('lumanex-wallet-backend');
 
 (async () => {
     const daemon = new WB.Daemon('127.0.0.1', 11898);
@@ -70,7 +70,7 @@ const WB = require('turtlecoin-wallet-backend');
 ### Typescript
 
 ```typescript
-import { WalletBackend, Daemon, IDaemon } from 'turtlecoin-wallet-backend';
+import { WalletBackend, Daemon, IDaemon } from 'lumanex-wallet-backend';
 
 (async () => {
     const daemon: IDaemon = new Daemon('127.0.0.1', 11898);
@@ -377,9 +377,9 @@ Start of changelog.
 
 ### Building (For Developers)
 
-`git clone https://github.com/turtlecoin/turtlecoin-wallet-backend-js.git`
+`git clone https://github.com/Lumanex-Project/lumanex-wallet-backend-js.git`
 
-`cd turtlecoin-wallet-backend`
+`cd lumanex-wallet-backend`
 
 `npm install -g yarn` (Skip this if you already have yarn installed)
 

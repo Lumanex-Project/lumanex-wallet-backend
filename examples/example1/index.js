@@ -1,4 +1,4 @@
-const WB = require('turtlecoin-wallet-backend');
+const WB = require('lumanex-wallet-backend');
 const readline = require('readline');
 const util = require('util');
 
