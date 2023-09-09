@@ -17,6 +17,7 @@ export { validateAddress, validateAddresses, validatePaymentID } from './Validat
 export { TransactionInput, DaemonType, DaemonConnection } from './Types';
 export { MixinLimit, MixinLimits } from './MixinLimits';
 export { Config } from './Config';
+export { FeeType } from './FeeType';
 
 // this is to keep pesky timeout errors away
 // see https://stackoverflow.com/questions/24320578/node-js-get-request-etimedout-esockettimedout/37946324#37946324

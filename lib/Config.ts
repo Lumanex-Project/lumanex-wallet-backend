@@ -216,12 +216,12 @@ export class Config implements IConfig {
     /**
      * Request timeout for daemon operations in milliseconds
      */
-    public requestTimeout: number = 10 * 1000;
+    public requestTimeout: number = 20 * 1000;
 
     /**
      * The block time of your coin, in seconds
      */
-    public blockTargetTime: number = 30;
+    public blockTargetTime: number = 10;
 
     /**
      * How often to process blocks, in millseconds
@@ -259,7 +259,7 @@ export class Config implements IConfig {
     /**
      * The minimum fee allowed for transactions, in ATOMIC units
      */
-    public minimumFee: number = 100;
+    public minimumFee: number = 10000;
 
     /* Fee per byte is rounded up in chunks. This helps makes estimates
      * more accurate. It's suggested to make this a power of two, to relate
@@ -271,7 +271,7 @@ export class Config implements IConfig {
      * something like 2 because it makes for pretty resulting fees
      * - 5 TRTL vs 5.12 TRTL. You can read this as.. the fee per chunk
      * is 500 atomic units. The fee per byte is 500 / chunk size. */
-    public minimumFeePerByte = 500.00 / this.feePerByteChunkSize;
+    public minimumFeePerByte = 256.00 / this.feePerByteChunkSize;
 
     /**
      * Mapping of height to mixin maximum and mixin minimum
